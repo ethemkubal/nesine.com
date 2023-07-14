@@ -1,0 +1,11 @@
+.overlay-box {
+    position: fixed;
+    padding: 20px;
+    bottom: 20px; /* Sağ alt köşede olmasını istediğiniz konuma göre ayarlayın */
+    right: 20px; /* Sağ alt köşede olmasını istediğiniz konuma göre ayarlayın */
+    width: 600px;
+    /* height: 200px; */
+    background-color: white;
+    z-index: 9999; /* En üst katmanda olması için yüksek bir z-index değeri verin */
+    border: 1px solid black;
+  }
